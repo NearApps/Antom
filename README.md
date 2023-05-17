@@ -27,3 +27,28 @@ ingresar al entorno virtual
   
 si se antepone en la terminal (venv) antes de la ruta, todo esta OK.
 </details>
+
+<details>
+<summary>Django</summary>
+instalamos el paquete Django
+  
+```console
+python -m pip install django
+python -m pip install djangorestframework
+django-admin startproject core .
+```
+  
+creamos un entorno virtual si no existe la carpeta venv
+  
+```console
+virtualenv venv	
+```
+  
+ingresar al entorno virtual
+  
+```console
+.\venv\Scripts\activate
+```
+  
+si se antepone en la terminal (venv) antes de la ruta, todo esta OK.
+</details>
